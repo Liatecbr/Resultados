@@ -101,9 +101,29 @@
             color: #333;
             margin-top: 10px;
         }
+        .logo {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            padding: 10px 15px;
+            background-color: #374A47;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .back-button:hover {
+            background-color: #3CB79F;
+        }
     </style>
 </head>
 <body>
+    <!-- Logo da clínica -->
+    <img src="https://liatecbr.github.io/Liatec/download-removebg-preview.png" alt="Logo da Clínica" class="logo">
+
     <div class="loading">
         <div class="spinner"></div>
         <span>Verificando laudo...</span>
@@ -121,6 +141,8 @@
             <p><strong>Código da amostra:</strong> 28977025</p>
             <p><strong>Recebido em:</strong> 21/07/2021</p>
         </div>
+        <!-- Botão de retorno -->
+        <button class="back-button" onclick="window.location.href='https://liatecbr.github.io/Liatec/'">Voltar para a Página Inicial</button>
     </div>
     <div class="chat-icon">
         <svg viewBox="0 0 24 24">
